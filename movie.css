@@ -1,0 +1,52 @@
+    h1,
+    h2,
+    {
+        font-family: 'Voltaire', sans-serif;
+        font-size: 25px;
+    }
+    
+    body {
+        background-image: url("https://i.ytimg.com/vi/yOKqsdWAJFA/maxresdefault.jpg")
+    }
+    
+    p {
+        padding-top: 70px;
+        color: goldenrod;
+        font-family: 'Voltaire', sans-serif;
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    h3 {
+        color: goldenrod;
+        font-family: 'Voltaire', sans-serif;
+        font-size: 35px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .text-center {
+        padding-top: 30px;
+        color: goldenrod;
+        font-family: 'Michroma', sans-serif;
+    }
+    
+    .info {
+        color: goldenrod;
+        font-size: 20px;
+        font-family: 'Voltaire', sans-serif;
+    }
+    
+    .item {
+        width: 400px;
+        height: 370px;
+    }
+    
+    .links {
+        padding-bottom: 40px;
+    }
+    
+    .lists {
+        font-family: 'Michroma', sans-serif;
+        font-size: 25px;
+    }

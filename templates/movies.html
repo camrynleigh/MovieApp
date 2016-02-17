@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 center-block">
+            <h1 class="text-center">Fun to search,<br/> Fun to watch.</h1>
+            <input ng-model="titleSearch" class="center-block" placeholder="Movie Name">
+            </br>
+            <button class="center-block" class="btn" ng-click="search()">Get Movie</button>
+            <hr>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" ng-repeat="movies in searchResults">
+
+            <h1 class="info">{{movies.Title}}</h1>
+            <h2 class="info">Type: {{movies.Type}}</h2>
+            <h2 class="info">Year: {{movies.Year}}</h2>
+            <br>
+        </div>
+    </div>
+</div>
